@@ -55,3 +55,19 @@ h2 {
     width: 100%;
     height: 35px;
 }
+
+.countdown #day::before {
+    content: "Days";
+}
+
+.countdown #hour::before {
+    content: "Hours";
+}
+
+.countdown #minute::before {
+    content: "Minutes";
+}
+
+.countdown #second::before {
+    content: "Seconds";
+}
