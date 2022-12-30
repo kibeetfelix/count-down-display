@@ -20,5 +20,9 @@ function updateCountdown() {
     const h = Math.floor((gap % day) / hour);
     const m = Math.floor((gap % hour) / minute);
     const s = Math.floor((gap % minute) / second)
-    console.log(d, h, m, s);
+
+    dayEl.innerText = d;
+    hourEl.innerText = h;
+    minuteEl.innerText = m;
+    secondEl.innerText = s;
 }
