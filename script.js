@@ -25,4 +25,6 @@ function updateCountdown() {
     hourEl.innerText = h;
     minuteEl.innerText = m;
     secondEl.innerText = s;
+
+    setTimeout(updateCountdown, 1000)
 }
