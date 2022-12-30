@@ -7,12 +7,14 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 h2 {
     color: white;
     font-size: 50px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .Year {
